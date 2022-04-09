@@ -17,6 +17,7 @@ body {
   padding-left: 0;
   display: grid;
   gap: 20px;
+  grid-template-columns: 10px 1fr;
 }
 
 .main_screen {
