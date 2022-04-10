@@ -15,6 +15,7 @@
 body {
   display: grid;
   grid-template-columns: 1fr 5fr;
+  margin: 0;
 }
 
 .sidebar {
@@ -75,9 +76,19 @@ body {
   background-color: var(--tan-med);
 }
 
+.projects_box {
+  grid-area: 1 / 1 / span 2 / span 1;
+}
+
+h2 {
+  padding-left: 10px;
+}
+
 .projects {
   display: grid;
-  grid-area: 1 / 1 / span 2 / span 1;
+  gap: 10px;
+  margin: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
 .card {
@@ -86,45 +97,70 @@ body {
 
 .projects .card {
   display: grid;
-  grid-template-rows: 15px 1fr 15px;
-  grid-template-columns: 15px 1fr 10px 10px 10px;
+  grid-template-rows: 30px 1fr 30px;
+  grid-template-columns: 30px 1fr 30px 30px 30px;
+  border-left: 1rem solid var(--green-light);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px var(--green-dark);
 }
 
 .projects .card .class_logo{
-
+  grid-area: 1 / 1 / span 1 / span 1;
+  align-self: center;
 }
 
 .projects .card .title{
-  
+  grid-area: 1 / 2 / span 1 / span 2;
+  font-weight: 600;
+  align-self: center;
 }
 
 .projects .card .description{
-  
+  grid-area: 2 / 1 / span 1 / span 3;
 }
 
 .projects .card .star_logo{
-
+  grid-area: 3 / 3;
 }
 
 .projects .card .eye_logo{
-
+  grid-area: 3 / 4;
 }
 
 .projects .card .share_logo{
-
+  grid-area: 3 / 5;
 }
 
 .announcements {
-  display: grid;
+  background-color: var(--tan-light);
   grid-area: 1 / 2;
-  gap: 1px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px var(--green-dark);
+  padding: 10px;
+  margin: 10px;
 }
 
 .announcements .card {
   display: grid;
 }
 
+hr {
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, transparent, #a5a58d, transparent);  
+}
+
 .trending {
-  display: grid;
+  background-color: var(--tan-light);
   grid-area: 2 / 2;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px var(--green-dark);
+  padding: 10px;
+  margin: 10px;
+  display: grid;
+  gap: 20px;
+}
+
+.trending div {
+
 }
