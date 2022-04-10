@@ -86,6 +86,8 @@ body {
 
 .projects .card {
   display: grid;
+  grid-template-rows: 15px 1fr 15px;
+  grid-template-columns: 15px 1fr 10px 10px 10px;
 }
 
 .announcements {
