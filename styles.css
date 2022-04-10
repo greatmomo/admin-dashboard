@@ -90,6 +90,30 @@ body {
   grid-template-columns: 15px 1fr 10px 10px 10px;
 }
 
+.projects .card .class_logo{
+
+}
+
+.projects .card .title{
+  
+}
+
+.projects .card .description{
+  
+}
+
+.projects .card .star_logo{
+
+}
+
+.projects .card .eye_logo{
+
+}
+
+.projects .card .share_logo{
+
+}
+
 .announcements {
   display: grid;
   grid-area: 1 / 2;
