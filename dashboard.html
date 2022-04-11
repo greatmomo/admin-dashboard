@@ -17,28 +17,28 @@
     <div class="sidebar_main">
       <ul>
         <li><img src="svg/home.svg" alt=""></li>
-        <li>Home</li>
+        <li class="menu_item">Home</li>
         <li><img src="svg/book.svg" alt=""></li>
-        <li>Spells</li>
+        <li class="menu_item">Spells</li>
         <li><img src="svg/people.svg" alt=""></li>
-        <li>Races</li>
+        <li class="menu_item">Races</li>
         <li><img src="svg/axe-battle.svg" alt=""></li>
-        <li>Classes</li>
+        <li class="menu_item">Classes</li>
         <li><img src="svg/tonic.svg" alt=""></li>
-        <li>Items</li>
+        <li class="menu_item">Items</li>
         <li><img src="svg/flag.svg" alt=""></li>
-        <li>Feats</li>
+        <li class="menu_item">Feats</li>
       </ul>
     </div>
 
     <div class="sidebar_extra">
       <ul>
         <li><img src="svg/cogs.svg" alt=""></li>
-        <li>Settings</li>
+        <li class="menu_item">Settings</li>
         <li><img src="svg/triforce.svg" alt=""></li>
-        <li>Support</li>
+        <li class="menu_item">Support</li>
         <li><img src="svg/shield-sword.svg" alt=""></li>
-        <li>Privacy</li>
+        <li class="menu_item">Privacy</li>
       </ul>
     </div>
   </div>
@@ -48,22 +48,29 @@
       <div class="top">
         <div class="searchbar">
           <img src="svg/magnify.svg" alt="">
-          searchbar
+          <input type="search">
         </div>
 
         <div class="user_info">
-          <img src="svg/bell-ring-outline.svg" alt="">
-          user info
+          <img class="notifications" src="svg/bell-ring-outline.svg" alt="">
+          <img class="user_icon" src="icons/wizard.jpg" alt="">
+          <div class="user_name">Burt Reynolds</div>
         </div>
       </div>
 
       <div class="bottom">
         <div class="greeting">
-          greeting
+          <img class="user_icon" src="icons/wizard.jpg" alt="">
+          <div class="greeting_block">
+            <div class="greet">Salutations,</div>
+            <div class="user_info">Burt Reynolds, (@literatus)</div>
+          </div>
         </div>
 
         <div class="nav">
-          nav
+          <button class="nav_button">New</button>
+          <button class="nav_button">Upload</button>
+          <button class="nav_button">Share</button>
         </div>
       </div>
     </div>
@@ -186,10 +193,34 @@
       <div class="trending_box">
         <h2>Trending</h2>
         <div class="trending">
-          <div>@tegan</div>
-          <div>@morgan</div>
-          <div>@kendall</div>
-          <div>@alex</div>
+          <div class="user">
+            <img class="user_icon" src="icons/barbarian.jpg" alt="">
+            <div class="user_info">
+              <div class="user_name">@ragelord</div>
+              <div class="user_desc">Always Angry</div>
+            </div>
+          </div>
+          <div class="user">
+            <img class="user_icon" src="icons/druid.jpg" alt="">
+            <div class="user_info">
+              <div class="user_name">@puppyluvr</div>
+              <div class="user_desc">Nature Lover</div>
+            </div>
+          </div>
+          <div class="user">
+            <img class="user_icon" src="icons/wizard.jpg" alt="">
+            <div class="user_info">
+              <div class="user_name">@literatus</div>
+              <div class="user_desc">Literally Literate</div>
+            </div>
+          </div>
+          <div class="user">
+            <img class="user_icon" src="icons/bard.jpg" alt="">
+            <div class="user_info">
+              <div class="user_name">@locrian</div>
+              <div class="user_desc">Musical Theorist</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
