@@ -73,6 +73,7 @@ body {
   display: grid;
   grid-template-columns: 2fr 1fr;
   padding: 10px;
+  padding-bottom: 0px;
 }
 
 .searchbar {
@@ -120,6 +121,34 @@ body {
 .bottom {
   display: grid;
   grid-template-columns: 2fr 1fr;
+  margin-top: -10px;
+}
+
+.bottom .greeting {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  padding: 20px;
+  padding-top: 0px;
+  margin-left: 20px;
+  gap: 10px;
+}
+
+.bottom .greeting .user_icon {
+  width: 100px;
+  border-radius: 50px;
+}
+
+.greeting_block {
+  margin-top: 20px;
+}
+
+.greeting_block .greet {
+  font-weight: 600;
+}
+
+.greeting_block .user_info {
+  font-weight: 600;
+  font-size: 2rem;
 }
 
 .projects_section {
