@@ -151,6 +151,25 @@ body {
   font-size: 2rem;
 }
 
+.nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  align-content: center;
+  margin-left: 30px;
+}
+
+.nav .nav_button {
+  background-color: var(--green-dark);
+  height: 3rem;
+  width: 8rem;
+  border-radius: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  border: none;
+}
+
 .projects_section {
   display: grid;
   grid-template-columns: 3fr 1fr;
